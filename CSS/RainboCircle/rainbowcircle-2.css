@@ -1,0 +1,18 @@
+#inner {
+    --circle-thikness: 25px;
+    --purple-size: calc(var(--circle-thikness) * 2);
+    --offset: calc(var(--circle-thikness)*5);
+
+    position: relative;
+    top: var(--offset);
+    left: var(--offset);
+    border-radius: 50%;
+    height: var(--purple-size);
+    width: var(--purple-size);
+    background-color: #800080;
+    box-shadow: 0 0 0 var(--circle-thikness) #0000ff,
+        0 0 0 calc(var(--circle-thikness)*2) #008000,
+        0 0 0 calc(var(--circle-thikness)*3) #ffff00,
+        0 0 0 calc(var(--circle-thikness)*4) #ffa500,
+        0 0 0 calc(var(--circle-thikness)*5) #ff0000;
+}
