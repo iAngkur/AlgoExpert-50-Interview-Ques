@@ -1,0 +1,30 @@
+:root {
+    --circle-thikness: 25px;
+}
+
+div {
+    border-radius: 50%;
+}
+
+#outer {
+    height: calc(var(--circle-thikness) * 8);
+    width: calc(var(--circle-thikness) * 8);
+    background-color: orange;
+    border: var(--circle-thikness) solid red;
+    padding: var(--circle-thikness);
+}
+
+#middle {
+    height:calc(var(--circle-thikness) * 4);
+    width: calc(var(--circle-thikness) * 4);
+    background-color: green;
+    border: var(--circle-thikness) solid yellow;
+    padding: var(--circle-thikness);
+}
+
+#inner {
+    height: calc(var(--circle-thikness) * 2);
+    width: calc(var(--circle-thikness) * 2);
+    background-color: indigo;
+    border: var(--circle-thikness) solid blue;
+}
