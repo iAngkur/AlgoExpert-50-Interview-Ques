@@ -97,26 +97,24 @@ ul li {
     background-color: white;
     border-radius: var(--product-offering-border-radius);
     font-weight: bold;
+    border-left: var(--product-offering-left-border-size) solid var(--primary-product-color);
+    color: var(--primary-product-color);
 }
 
 .blue-product {
-    border-left: var(--product-offering-left-border-size) solid var(--blue-product-color);
-    color: var(--blue-product-color);
+    --primary-product-color: var(--blue-product-color);
 }
 
 .red-product {
-    border-left: var(--product-offering-left-border-size) solid var(--red-product-color);
-    color: var(--red-product-color);
+    --primary-product-color: var(--red-product-color);
 }
 
 .orange-product {
-    border-left: var(--product-offering-left-border-size) solid var(--orange-product-color);
-    color: var(--orange-product-color);
+    --primary-product-color: var(--orange-product-color);
 }
 
 .green-product {
-    border-left: var(--product-offering-left-border-size) solid var(--green-product-color);
-    color: var(--green-product-color);
+    --primary-product-color: var(--green-product-color);
 }
 
 label {
@@ -131,4 +129,5 @@ button {
     border-radius: var(--button-border-radius);
     background-color: var(--button-background-color);
     color: white;
+    outline: none;
 }
